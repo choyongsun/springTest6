@@ -24,7 +24,7 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		logger.info("Welcome home! testㅗㅗㅗ fdfdfddfdffdthe client locale is "+ locale.toString());
+		logger.info("Welcome home! testㅗㅗㅗ fdfdfd버젼 틀dfdffdthe client locale is "+ locale.toString());
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
