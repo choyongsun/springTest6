@@ -10,7 +10,8 @@
 		alert("test");
 	}
 	
-	$(myFunctioniii());
+	$(myFunction());
+	$("div").addCldddass("test");
 	
 </script>
 </head>
