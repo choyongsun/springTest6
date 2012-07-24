@@ -12,6 +12,7 @@
 	
 	$(myFunction());
 	$("div").addCldddass("test");
+	//$("div").add(expr);
 	
 </script>
 </head>
